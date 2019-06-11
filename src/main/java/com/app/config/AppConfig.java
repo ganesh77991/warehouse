@@ -36,8 +36,11 @@ import com.app.model.WhUserType;
 @PropertySource("classpath:app.properties")
 public class AppConfig  implements WebMvcConfigurer{
 	
+	
 	@Autowired
 	private Environment env;
+	
+	//just adding new commit
 	
 	@Autowired
 	private UserIdToConverter userConverter;
