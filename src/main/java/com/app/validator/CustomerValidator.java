@@ -6,6 +6,8 @@ import org.springframework.validation.Validator;
 
 import com.app.model.Customer;
 
+// it is a validator class
+
 @Component
 public class CustomerValidator implements Validator{
 
